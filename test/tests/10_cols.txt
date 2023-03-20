@@ -1,0 +1,10 @@
+currencyPair price   changeAbsolute changePercent   newCol      nextCol     lateCol     anotherCol      ColCol
+EUR/USD     1.0735         -0.0045     -0.42        2.31        591         89031       -41             colcol
+USD/JPY   112.0900          -0.494     -0.44        4.21        531         21          -531            colcol
+GBP/USD     1.2476         -0.0010     -0.08        41.1        1531        2           -752            colcol
+AUD/USD     0.7648         -0.0032     -0.42        531.1       5381        1           -4682           colcol
+USD/CAD     1.3112          0.0092      0.71        75318571.351        931     2       -351            colcol
+USD/CHF     0.9927          0.0007      0.07        75391591.75318573       859318      3   -31         colcol
+USD/CNY     6.8599         -0.0050     -0.07        0.2         58391       41          -1121           colcol
+EUR/JPY   120.3150         -1.1050     -0.91        -0.421      85318       41          -111            colcol
+EUR/GBP     0.8604         -0.0032     -0.37        -2141       85310       21          -11111          colcol
