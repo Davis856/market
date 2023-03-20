@@ -11,13 +11,7 @@ defmodule MarketData do
 
   def create_struct(keys, values), do: Enum.map(values, fn row -> Enum.zip(keys, row) |> Enum.into(%{}) end)
 
-  def cast_types(object) do
-    result = MarketData.Parser.parse_object(object)
-    result = Enum.map(result, fn row ->
-      Map.new(row)
-    end)
-    result
-  end
+  def cast_types(object), do: MarketData.Parser.parse_object(object) |> Enum.map(result, fn row -> Map.new(row) end)
 
   def get_top(object, column, n), do: Enum.sort_by(object, &Map.fetch!(&1, column), :desc) |> Enum.take(n)
 
