@@ -27,7 +27,7 @@ defmodule MarketData do
     struct = create_struct(keys, values)
     struct_typed = cast_types(struct)
 
-    option = IO.gets("Menu:\n a) Get top 3. \n Select an option: ") |> String.trim()
+    option = IO.gets("Menu:\n a) Get top n. \n Select an option: ") |> String.trim()
 
     case option do
       "a" ->  get_top(struct_typed, column, count) |> IO.inspect()
