@@ -5,11 +5,7 @@ defmodule MarketData.Parser do
       with {float, _} <- Float.parse(value) do
         {key, float}
       else
-        _ -> with {integer, _} <- Integer.parse(value) do
-          {key, integer}
-        else
-          _ -> {key, value}
-        end
+        _ -> {key, value}
       end
       end)
   end
